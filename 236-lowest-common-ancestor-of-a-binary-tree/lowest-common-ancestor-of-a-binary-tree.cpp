@@ -17,7 +17,7 @@ public:
         int l=fun(root->left,p,q);
         int r=fun(root->right,p,q);
         int self=0;
-         if(root == p || root == q)
+        if(root == p || root == q)
             self = 1;
 
         int total=l+r+self;
